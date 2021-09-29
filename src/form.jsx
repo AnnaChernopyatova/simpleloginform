@@ -36,6 +36,7 @@ import React from 'react';
        }) => (
          <form onSubmit={handleSubmit}>
              <div>
+               Введите email: 
            <input
              type="email"
              name="email"
@@ -46,6 +47,7 @@ import React from 'react';
            {errors.email && touched.email && errors.email}
            </div>
            <div>
+             Введите пароль:
            <input
              type="password"
              name="password"
